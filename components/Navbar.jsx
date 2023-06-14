@@ -7,15 +7,18 @@ function BasicExample() {
   return (
     <Navbar expand="lg">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <h3 className="font-color fw-bold">Shopriqa</h3>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          style={{ border: "0" }}
+        />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto text-dark">
             <div className="navbar">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">About Us</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/about-us">About Us</Nav.Link>
               <NavDropdown title="Products" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Salons</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">

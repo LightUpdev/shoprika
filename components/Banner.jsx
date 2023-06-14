@@ -24,7 +24,12 @@ const Banner = () => {
               <div className="btn filled">Get notified of launch</div>
             </div>
             <div className="col-sm-12 col-md-6 vector-img mx-auto">
-              <img src="/Vector 4.png" alt="vector-img" />
+              <Image
+                src="/Vector 4.png"
+                alt="vector-img"
+                width={200}
+                height={80}
+              />
             </div>
           </div>
         </div>

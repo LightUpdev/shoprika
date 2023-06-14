@@ -1,6 +1,7 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { cards } from "../card.js";
+import Image from "next/image.js";
 
 function BasicExample() {
   return (
@@ -15,7 +16,13 @@ function BasicExample() {
                   className="card-img-div"
                   style={{ backgroundImage: `url(${iconBg})` }}
                 >
-                  <img className="m-3" src={icon} width={35} />
+                  <Image
+                    className="m-3"
+                    alt="icon"
+                    src={icon}
+                    width={35}
+                    height={35}
+                  />
                 </div>
 
                 <Card.Body>

@@ -25,7 +25,7 @@ const Banner = () => {
             </div>
             <div className="col-sm-12 col-md-6 vector-img mx-auto">
               <Image
-                src="/Vector 4.png"
+                src="/Vector4.png"
                 alt="vector-img"
                 width={200}
                 height={80}
@@ -36,7 +36,7 @@ const Banner = () => {
         <div className="col-sm-12 col-md-6 align-items-sm-center align-items-md-center">
           <div className="pulse mx-auto">
             <Image
-              src="/Group 3.png"
+              src="/Group3.png"
               alt="hero-image"
               width={500}
               height={300}

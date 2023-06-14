@@ -30,11 +30,28 @@ const Hero = () => {
             Effortless setup, seamless operation
           </h3>
         </div>
-        <div className="row my-5 py-3">
-          <div className="col-sm-12 col-md-6">
-            <ul></ul>
+        <div className="row text-white my-5 py-3">
+          <div className="col-sm-12 col-md-4">
+            <div className="list">
+              <ol>
+                <li>
+                  Sign up for a free account and provide basic information about
+                  your business
+                </li>
+                <li>Add products and setup payment options.</li>
+                <li>
+                  Launch your online store and start promoting your products to
+                  attract customers
+                </li>
+                <li>
+                  Manage orders, track inventory and grow your business with our
+                  intuitive dasboard
+                </li>
+              </ol>
+            </div>
           </div>
-          <div className="col-sm-12 col-md-6">
+          <div className="col-sm-12 col-md-4"></div>
+          <div className="col-sm-12 col-md-4">
             <div>
               <Image src="/1.png" alt="hero" width={400} height={400} />
             </div>

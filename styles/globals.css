@@ -23,7 +23,8 @@ h6 {
   font-family: "Playfair Display", serif !important;
 }
 p,
-a {
+a,
+li {
   font-family: "Lora", serif !important;
 }
 .font-color {
@@ -126,4 +127,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+ol li {
+  margin: 3rem 0;
 }
